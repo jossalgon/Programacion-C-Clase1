@@ -4,10 +4,18 @@
  */
 
 /* Bibliotecas a incluir */
+#include <stdio.h>
 
 void main()
 {
 	/* Declaración de variables */
+	int len = 0;
+	char cadena[20] = "cadena\0";
 
 	/* Código usando while*/
+	while (cadena[len] != '\0') {
+		len++;
+	}
+
+	printf("El tamaño es %d\n", len);
 }
