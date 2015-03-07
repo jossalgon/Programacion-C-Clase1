@@ -12,7 +12,7 @@ void main(void) {
 
 	/* Código usando condicional if */
 	if (i > 5)
-		printf("i es mayor que 5 \n");
+		printf("i es mayor que 5\n");
 	else
-		printf("i es menor o igual que 5 \n");
+		printf("i es menor o igual que 5\n");
 }
